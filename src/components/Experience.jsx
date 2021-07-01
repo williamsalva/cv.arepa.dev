@@ -8,7 +8,7 @@ const Experience = props => (
     <H2Element name="Experience" />
     {props.data.map((exp, index) => (
       <div className='item' key={`Experience-${index}`}>
-        <H3Element>{exp.jobTitle} @ {exp.company} <span>{exp.startDate} - {exp.endDate}</span></H3Element>
+        <H3Element>{exp.jobTitle} - {exp.company} <span>{exp.startDate} - {exp.endDate}</span></H3Element>
         <ParamElement content={exp.jobDescription} />
       </div>
     ))}

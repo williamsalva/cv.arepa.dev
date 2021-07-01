@@ -8,8 +8,8 @@ const Education = props => (
     <H2Element name="Education" />
     {props.data.map((edu, index) => (
       <div className='Education-item' key={`Education-${index}`}>
-        <H3Element>{edu.degree} @ {edu.institution} <span>{edu.startDate} - {edu.endDate}</span></H3Element>
-        <ParamElement content={edu.description} />
+        <H3Element>{edu.degree} - {edu.institution} </H3Element>
+        <ParamElement content={<span>{edu.startDate} - {edu.endDate}</span>} />
       </div>
     ))}
   </div>

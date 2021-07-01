@@ -10,7 +10,8 @@ import Experience from '../components/Experience';
 import Certificates from '../components/Certificates';
 import Skills from '../components/Skills';
 import Loader from '../components/Loader';
-const API = 'https://us-central1-gndx-cv.cloudfunctions.net/me';
+import data from '../data';
+
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -22,7 +23,6 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const App = () => {
-  const data = useGetData(API);
   return data.length === 0 ? <><GlobalStyle /><Loader /></> : (
     <Main>
       <GlobalStyle />
@@ -34,12 +34,14 @@ const App = () => {
           bio={data.bio}
           address={data.address}
           social={data.social}
+          tel={data.tel}
+          email={data.email}
         />
       </Sidebar>
       <Info>
         <Education data={data.education} />
         <Experience data={data.experience} />
-        <Certificates data={data.certificate} />
+        
         <Skills data={data.skills} />
       </Info>
     </Main>
