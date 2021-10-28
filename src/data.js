@@ -1,9 +1,9 @@
 const data = {
   address: 'Guadalajara Jalisco.',
-  tel:'Cel: 331-512-8570',
+  tel:'Mobile: 331-512-8570',
   email:'Email: williams.alva@hotmail.com',
   avatar:
-    'https://media-exp1.licdn.com/dms/image/C4E03AQEBtfaSYO5y6A/profile-displayphoto-shrink_800_800/0/1602012443322?e=1628121600&v=beta&t=-FVvxPexNTTePEpJE3VZNJEwj5ibfkkxCluMywNw0ws',
+    'https://media-exp1.licdn.com/dms/image/C4E03AQG00K49LnYLoQ/profile-displayphoto-shrink_800_800/0/1625934931283?e=1639612800&v=beta&t=OnQyR4Jur08Re3pXyPjvDMdLuoW11KYzL1tM1XcAqNk',
   bio:
     "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
   certificate: [
@@ -24,13 +24,13 @@ const data = {
   ],
   education: [
     {
-      degree: 'Técnico en contabilidad',
+      degree: 'technical accounting',
       endDate: '2009',
       institution: 'Preparatoria #10 UDG',
       startDate: '2009',
     },
     {
-      degree: 'Ingenería en sistemas',
+      degree: 'Systems engineering',
       description:
         'Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ',
       endDate: '2017',
@@ -40,40 +40,47 @@ const data = {
   ],
   experience: [
     {
-      company: 'GasGas App',
-      endDate: 'Presente',
+      company: ' Betterware',
+      endDate: 'Present',
       jobDescription:
-        'Desarrollo de plataforma web y aplicacion móvil para empresa del sector Gasolinero .',
-      jobTitle: 'Frontend',
-      startDate: 'Octubre 2020',
+        'Development of web platform and mobile application for sales management made by the distributors and sales force of the company. '+
+        'The languages and libraries that I used to develop the different applications were react-native, react, redux, redux-sagas, Styled-components, jest-enzyme, ',
+      jobTitle: 'Front-end software Engineer',
+      startDate: 'July 2021',
+    },
+    {
+      company: 'GasGas App',
+      endDate: 'August 2021',
+      jobDescription:
+        'Development of a web platform and mobile application for the Valero company where you could know '+
+        'the lowest price of gasoline from your competition in real time, in this work collaborate as freelance. '+
+        'The languages and libraries that I used to develop the different applications were react-native, '+
+        'react, redux, redux-sagas, Ant Design, Styled-components ',
+      jobTitle: 'Front-end software Engineer',
+      startDate: 'October 2020',
     },
     {
       company: 'Nomada',
-      endDate: 'Presente',
+      endDate: 'July 2021',
       jobDescription:
-        'Desarrollo de plataforma de Recursos Humanos, Contabilidad y Administración de la empresa .',
-      jobTitle: 'Frontend',
-      startDate: 'Noviembre 2019',
+        'Development of the Human Resources platform for the management of payroll and control of the personnel of different clients,'+
+        'as well as their Accounting and Administration of the company. ' +
+        'The languages and libraries that I used to develop the different apps were react-native, react, redux, graphQL, Ant Design, Material ui',
+      jobTitle: 'Front-end software Engineer',
+      startDate: 'November 2019',
     },
     {
       company: 'Glamouroso',
-      endDate: 'Octubre 2019',
-      jobDescription:
-        'Desarrollo de ecommerce y CRM asi como diferentes páginas de negocios que pertenecen a la misma familia',
-      jobTitle: 'Desarrollador Full stack',
-      startDate: 'Enero 2017',
-    },
-    {
-      company: 'Escuela Marista',
-      endDate: 'Octubre 2017',
-      jobDescription:
-        'Impartición de clases de sistemas al alumnado.',
-      jobTitle: 'Docente del area de sistemas',
-      startDate: 'Enero 2017',
+      endDate: 'October 2019',
+      jobDescription: 'Ecommerce development for the sale of cleaning products and CRM as well as different'+
+                       'commercial pages that belong to the same family, languages and framework with which it works are laravel, jquery,'+
+                      'node js,react, bootstrap',
+      jobTitle: 'Full Stack Developer',
+      startDate: 'January 2017',
     },
   ],
   name: 'Ramiro Williams Alva Garcia',
-  profession: 'FrontEnd Developer',
+  profession: 'Front-end software Engineer SR',
   skills: [
     {
       name: 'HTML5',
@@ -116,9 +123,15 @@ const data = {
         percentage: '75%',
       },
       {
-        name: 'Go',
+        name: 'jest-enzyme',
         percentage: '60%',
       },
+      {
+        name: 'Styled-components',
+        percentage: '90%',
+      },
+      
+      
   ],
   social: [
   
